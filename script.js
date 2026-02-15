@@ -1,9 +1,8 @@
-//your JS code here. If required.
 const output = document.getElementById("output");
 
-// Show loading
+// Loading row WITH ID
 output.innerHTML = `
-  <tr>
+  <tr id="loading">
     <td colspan="2">Loading...</td>
   </tr>
 `;
